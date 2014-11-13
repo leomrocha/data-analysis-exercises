@@ -47,7 +47,7 @@ Arrival airport is the column arr_port. It is the IATA code for the airport
 2. Do some testing on dummy data
 3. Do a basic analysis of the data (format, separators, columns, number of rows)
 4. Go to more complex tasks
-5. Try to publish one result a day until
+5. Try to publish one result a day until finish
 6. Packaging
 7. Installation and usage documentation
 
