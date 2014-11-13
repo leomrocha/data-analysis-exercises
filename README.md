@@ -11,6 +11,7 @@ The files processed to obtain the data will not be published (are not mine to de
 ###First exercise: 
 count the number of lines in Python for each file
 
+Solution and discussion [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-exercises/blob/master/1st%20Exercise.ipynb)
 
 ###Second exercise:
 
@@ -18,11 +19,19 @@ Arrival airport is the column arr_port. It is the IATA code for the airport
 
 1. Print the top 10 arrival airports in the standard output, including the number of passengers.
 2. (E) Get the name of the city or airport corresponding to that airport
+
+Solutions and discussion [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-exercises/blob/master/2nd%20Exercise.ipynb)
+
 3. (E) Write a Web Service taht wraps the output of the exercise that returns the data in JSON format. The web service should accept a parameter n>0. For the top 10 airports, n is 10. For the X top airports, n is X.
+
+
 
 ###Third exercise:
 
 1. Plot the monthly number of searches for flights arriving at Málaga, Madrid or Barcelona.
+
+In progress [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-exercises/blob/master/3rd%20Exercise.ipynb)
+
 2. (E) For every search in the searches file, find out whether the search ended up in a booking or not. Write a file with the results.
 
 ##Possible problems
@@ -47,7 +56,7 @@ Arrival airport is the column arr_port. It is the IATA code for the airport
 2. Do some testing on dummy data
 3. Do a basic analysis of the data (format, separators, columns, number of rows)
 4. Go to more complex tasks
-5. Try to publish one result a day until finish
+5. Publish one result a day until finish
 6. Packaging
 7. Installation and usage documentation
 
