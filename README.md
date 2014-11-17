@@ -30,7 +30,7 @@ Solutions and discussion [here](http://nbviewer.ipython.org/github/leomrocha/dat
 
 1. Plot the monthly number of searches for flights arriving at Málaga, Madrid or Barcelona.
 
-In progress [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-exercises/blob/master/3rd%20Exercise.ipynb)
+Solutions and discussion [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-exercises/blob/master/3rd%20Exercise.ipynb)
 
 2. (E) For every search in the searches file, find out whether the search ended up in a booking or not. Write a file with the results.
 
