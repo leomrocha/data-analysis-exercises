@@ -34,6 +34,44 @@ In progress [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-ex
 
 2. (E) For every search in the searches file, find out whether the search ended up in a booking or not. Write a file with the results.
 
+
+###Bonus Exercise: Ranking Web Service
+
+Wrap the output of the second exercise in a web service that returns the data in JSON format (instead of printing to the standard output). The web service should accept a parameter n>0. For the top 10 airports, n is 10. For the X top airports, n is X.
+
+#### Notes
+
+This exercise is solved in the files:
+
+ * ranker.py : contains the ranking algorithm
+ * ws_rank.py : contains the web service (depends on bottle.py)
+
+#### Dependences
+
+ * bottle.py
+ * pandas
+
+#### System requirements
+
+The program load the complete dataset in memory for the table bookings.py. The system needs enough memory for pandas to be able to load it.
+
+#### Launching
+
+To launch the program: 
+$ python  ws_rank.py 
+
+
+#### Usage
+The program returns a json object containing the airport and the number of passengers (pax).
+
+Getting the n top arrival airports:
+
+    localhost:8080/arrivals/first/100
+
+Getting the n last arrival airports:
+    
+    localhost:8080/arrivals/last/100
+
 ##Possible problems
 
 ###Lacking familiarity with Pandas library
@@ -49,6 +87,7 @@ In progress [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-ex
 
  * Load file in chunks
  * Load only needed columns
+ * Use file storage (PyTables)
 
 ##Plan (not strict, but as a guide)
 
@@ -59,5 +98,20 @@ In progress [here](http://nbviewer.ipython.org/github/leomrocha/data-analysis-ex
 5. Publish one result a day until finish
 6. Packaging
 7. Installation and usage documentation
+
+##Conclussions
+
+I had some fun and started learning a new library
+###Lessons learned:
+
+ * I started learning Python Pandas library
+ * I had some fun
+ * I underestimated the effort needed to learn to use the library
+ * I found more problems than expected
+ * Check, once and again formatting and separators in input files.
+ * Warning with missing data
+
+
+
 
 

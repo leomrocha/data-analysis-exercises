@@ -3,12 +3,12 @@
 Ranker module that obtains the rankins of arrivals
 """
 #pandas
-import numpy as np
+#import numpy as np
 import pandas as pd
 
 #geographic data
-from GeoBases import GeoBase
-geo_o = GeoBase(data='ori_por', verbose=False)
+#from GeoBases import GeoBase
+#geo_o = GeoBase(data='ori_por', verbose=False)
 
 ################################################################################
 # Helpers
@@ -98,11 +98,6 @@ class Ranker(object):
         df.rename(columns=lambda x: x.strip(), inplace=True)
         cols[:] = [c.strip() for c in cols]
         return df, cols
-        
-    def to_json(self, df):
-        """
-        """
-        pass
         
     def get_last(self, n):
         """
